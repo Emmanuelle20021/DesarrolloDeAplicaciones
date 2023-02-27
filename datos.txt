@@ -6,3 +6,4 @@ Facultad de contaduría y administración
 Primer add
 Segundo add
 Tercer add
+Nombre ctrl+s
