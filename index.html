@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Prueba Git</title>
-	</head>
-	<body>
-		<h1>Bienvenidos al git</h1>
-		<p>El control de versiones es...</p>
-	</body>
+  <head>
+    <title>Gatada de Gatos</title>
+    <style>
+      /* Estilos generales */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #F0F0F0;
+      }
+      
+      header h1 {
+        text-align: center;
+        color: #3E3E3E;
+        margin-top: 50px;
+      }
+      
+      /* Estilos para la sección principal */
+      main {
+        margin: 50px auto;
+        width: 80%;
+        padding: 30px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 10px #BBBBBB;
+      }
+      
+      /* Estilos para la lista de consejos */
+      main ul {
+        list-style-type: square;
+        margin-left: 20px;
+      }
+      
+      /* Estilos para el pie de página */
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #3E3E3E;
+        color: #FFFFFF;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido a Gatada de Gatos</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#razas">Razas de Gatos</a></li>
+        <li><a href="#cuidado">Cuidado de Gatos</a></li>
+        <li><a href="#divertido">Cosas Divertidas de Gatos</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2 id="razas">Razas de Gatos</h2>
+      <p>Los gatos son animales muy populares y existen muchas razas diferentes con características únicas. Algunas de las razas más populares incluyen:</p>
+      <ul>
+        <li>Siameses</li>
+        <li>Persas</li>
+        <li>Sphynx</li>
+        <li>Maine Coon</li>
+        <li>Ragdoll</li>
+      </ul>
+      <h2 id="cuidado">Cuidado de Gatos</h2>
+      <p>Los gatos son animales muy independientes, pero todavía necesitan atención y cuidado para mantenerse saludables y felices. Aquí hay algunos consejos para el cuidado de los gatos:</p>
+      <ul>
+        <li>Asegúrese de proporcionar una dieta equilibrada y adecuada a la edad de su gato.</li>
+        <li>Asegúrese de mantener a su gato hidratado proporcionándole agua fresca a diario.</li>
+        <li>Proveer un lugar cómodo y seguro para que su gato pueda descansar y dormir.</li>
+        <li>Llevar a su gato al veterinario regularmente para chequeos y vacunaciones.</li>
+        <li>Proveer juguetes y entretenimiento para mantener a su gato estimulado mental y físicamente.</li>
+      </ul>
+      <h2 id="divertido">Cosas Divertidas de Gatos</h2>
+      <p>Los gatos son animales muy divertidos y pueden ser muy entretenidos para ver jugar. Aquí hay algunas cosas divertidas que puedes hacer con tu gato:</p>
+      <ul>
+        <li>Organiza una sesión de fotos con tu gato en diferentes poses y escenarios divertidos.</li>
+        <li>Armá un pequeño circuito de obstáculos en casa para que tu gato pueda correr y saltar.
+          <img src="https://laverdadnoticias.com/__export/1587660172437/sites/laverdad/img/2020/04/23/2_video_viral_perro_y_gato_compiten_con_obstaculos_quien_es_el_mejor.png_206787170.png" alt="Gato jugando con obstáculos">
+        </li>
+        <li>Asegurarte de tener tiempo de calidad y jugar con tu gato todos los días.
+          <img src="data:image/jpeg;base64,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" alt="Gato jugando con su dueño">
+        </li>
+      </ul>
+</ul>
+</main>
+<footer>
+<p>Copyright © Gatada de Gatos 2023</p>
+</footer>
+
+  </body>
 </html>
